@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-03-07T07:52:27.736502",
+  "risk_score": 1.0,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "heyy",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:48:39.185774"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "helo",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:48:42.656165"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "what is your age",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:48:50.872305"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "how old are you",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:49:07.186388"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "12",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:50:44.683398"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "are you home alone",
+      "score": 0.075,
+      "flags": [
+        "Isolation"
+      ],
+      "ts": "2026-03-07T07:50:53.511469"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "yes",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:50:57.375271"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "send me your pictures",
+      "score": 0.431,
+      "flags": [
+        "Isolation",
+        "Image Request"
+      ],
+      "ts": "2026-03-07T07:51:32.887933"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "okayy i will sned",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:51:56.154524"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "damnn you hot",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:52:02.944337"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "you look sexy",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:52:14.125380"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "damn you hot",
+      "score": 0.469,
+      "flags": [
+        "Sexual"
+      ],
+      "ts": "2026-03-07T07:52:26.433611"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "sexy",
+      "score": 0.469,
+      "flags": [
+        "Sexual"
+      ],
+      "ts": "2026-03-07T07:52:27.734568"
+    }
+  ]
+}

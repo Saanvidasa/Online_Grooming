@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-03-07T07:16:58.480850",
+  "risk_score": 1.0,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "hey",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:15:28.289841"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "how old are you",
+      "score": 0.3,
+      "flags": [
+        "Age probing"
+      ],
+      "ts": "2026-03-07T07:15:46.820768"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "12",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:15:51.632072"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "are you home alone",
+      "score": 0.5,
+      "flags": [
+        "Isolation check"
+      ],
+      "ts": "2026-03-07T07:16:01.150995"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "yess",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:16:26.395222"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "send your pictures",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T07:16:46.373164"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "touch yourself",
+      "score": 0.85,
+      "flags": [
+        "Explicit content"
+      ],
+      "ts": "2026-03-07T07:16:58.478797"
+    }
+  ]
+}

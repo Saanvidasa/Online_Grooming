@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-03-07T03:17:46.630055",
+  "risk_score": 0.86,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "mf fo",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T03:17:04.196180"
+    },
+    {
+      "sender": "Chirag",
+      "role": "predator",
+      "text": "let me fuck you",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T03:17:10.816979"
+    },
+    {
+      "sender": "Chirag",
+      "role": "predator",
+      "text": "how old are you?",
+      "score": 0.345,
+      "flags": [
+        "Age probing"
+      ],
+      "ts": "2026-03-07T03:17:24.419076"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "14",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T03:17:33.081493"
+    },
+    {
+      "sender": "Chirag",
+      "role": "predator",
+      "text": "Are you home alone",
+      "score": 0.575,
+      "flags": [
+        "Isolation check"
+      ],
+      "ts": "2026-03-07T03:17:46.624822"
+    }
+  ]
+}

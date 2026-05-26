@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-03-07T08:15:17.679761",
+  "risk_score": 1.0,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "hey",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T08:14:56.384076"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "hottie",
+      "score": 0.404,
+      "flags": [
+        "Sexual"
+      ],
+      "ts": "2026-03-07T08:14:59.190588"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "can i meet you",
+      "score": 0.415,
+      "flags": [
+        "Sexual",
+        "Meeting"
+      ],
+      "ts": "2026-03-07T08:15:06.772351"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "send me your picture",
+      "score": 0.547,
+      "flags": [
+        "Sexual",
+        "Image Request",
+        "Meeting"
+      ],
+      "ts": "2026-03-07T08:15:17.676980"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-03-07T05:55:27.599212",
+  "risk_score": 1.0,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "okaty",
+      "role": "predator",
+      "text": "Hi",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T05:54:04.930187"
+    },
+    {
+      "sender": "Navya",
+      "role": "child",
+      "text": "Hey",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T05:54:05.902341"
+    },
+    {
+      "sender": "okaty",
+      "role": "predator",
+      "text": "What's ur age?",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T05:54:13.968522"
+    },
+    {
+      "sender": "Navya",
+      "role": "child",
+      "text": "14",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T05:54:15.322124"
+    },
+    {
+      "sender": "okaty",
+      "role": "predator",
+      "text": "Are you alone at home",
+      "score": 0.609,
+      "flags": [
+        "Isolation check"
+      ],
+      "ts": "2026-03-07T05:54:27.892929"
+    },
+    {
+      "sender": "Navya",
+      "role": "child",
+      "text": "yes",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T05:54:30.020968"
+    },
+    {
+      "sender": "okaty",
+      "role": "predator",
+      "text": "can u come home",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T05:54:51.957195"
+    },
+    {
+      "sender": "okaty",
+      "role": "predator",
+      "text": "Meet me tmrw",
+      "score": 0.253,
+      "flags": [],
+      "ts": "2026-03-07T05:55:04.962018"
+    },
+    {
+      "sender": "okaty",
+      "role": "predator",
+      "text": "how old are you",
+      "score": 0.345,
+      "flags": [
+        "Age probing"
+      ],
+      "ts": "2026-03-07T05:55:27.593566"
+    }
+  ]
+}

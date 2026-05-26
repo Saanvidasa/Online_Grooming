@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-03-07T03:41:59.289213",
+  "risk_score": 0.933,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "Raxhana",
+      "role": "predator",
+      "text": "are you alone",
+      "score": 0.609,
+      "flags": [
+        "Isolation check"
+      ],
+      "ts": "2026-03-07T03:40:34.098879"
+    },
+    {
+      "sender": "Navya",
+      "role": "child",
+      "text": "Yes",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T03:40:45.118857"
+    },
+    {
+      "sender": "?",
+      "role": "unknown",
+      "text": "how old are you",
+      "score": 0.345,
+      "flags": [
+        "Age probing"
+      ],
+      "ts": "2026-03-07T03:41:21.875619"
+    },
+    {
+      "sender": "Rachana",
+      "role": "predator",
+      "text": "How old are you",
+      "score": 0.345,
+      "flags": [
+        "Age probing"
+      ],
+      "ts": "2026-03-07T03:41:59.283985"
+    }
+  ]
+}

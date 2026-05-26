@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-03-07T04:54:51.366420",
+  "risk_score": 0.86,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "Navya",
+      "role": "child",
+      "text": "Hey",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T04:54:24.538545"
+    },
+    {
+      "sender": "jordon",
+      "role": "predator",
+      "text": "Hi",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T04:54:28.424190"
+    },
+    {
+      "sender": "jordon",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.345,
+      "flags": [
+        "Age probing"
+      ],
+      "ts": "2026-03-07T04:54:39.790924"
+    },
+    {
+      "sender": "Navya",
+      "role": "child",
+      "text": "14",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T04:54:43.739712"
+    },
+    {
+      "sender": "jordon",
+      "role": "predator",
+      "text": "Are you home alone?",
+      "score": 0.575,
+      "flags": [
+        "Isolation check"
+      ],
+      "ts": "2026-03-07T04:54:51.362494"
+    }
+  ]
+}

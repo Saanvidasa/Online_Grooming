@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-03-06T23:40:57.393269",
+  "risk_score": 0.849,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "b",
+      "role": "predator",
+      "text": "hi",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-06T23:39:38.376850"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "hello",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-06T23:39:41.295438"
+    },
+    {
+      "sender": "b",
+      "role": "predator",
+      "text": "how old are you",
+      "score": 0.345,
+      "flags": [
+        "Age probing"
+      ],
+      "ts": "2026-03-06T23:39:58.169997"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "14",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-06T23:40:08.786077"
+    },
+    {
+      "sender": "b",
+      "role": "predator",
+      "text": "send nudes",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-06T23:40:19.927081"
+    },
+    {
+      "sender": "b",
+      "role": "predator",
+      "text": "are you home alone",
+      "score": 0.575,
+      "flags": [
+        "Isolation check"
+      ],
+      "ts": "2026-03-06T23:40:57.392306"
+    }
+  ]
+}

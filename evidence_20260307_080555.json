@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-03-07T08:05:55.845028",
+  "risk_score": 1.0,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "hey",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T08:05:05.864949"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "hello",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T08:05:08.540492"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "hottie",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T08:05:11.386884"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "hey hottie",
+      "score": 0.276,
+      "flags": [
+        "Sexual"
+      ],
+      "ts": "2026-03-07T08:05:20.642378"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "how old are you",
+      "score": 0.259,
+      "flags": [
+        "Sexual",
+        "Manipulation"
+      ],
+      "ts": "2026-03-07T08:05:28.722755"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "send me your picture",
+      "score": 0.507,
+      "flags": [
+        "Sexual",
+        "Image Request"
+      ],
+      "ts": "2026-03-07T08:05:40.962496"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "okayy",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T08:05:47.352725"
+    },
+    {
+      "sender": "alex",
+      "role": "predator",
+      "text": "send picture now",
+      "score": 0.503,
+      "flags": [
+        "Sexual",
+        "Image Request"
+      ],
+      "ts": "2026-03-07T08:05:55.844392"
+    }
+  ]
+}

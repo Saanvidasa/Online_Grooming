@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-03-06T22:04:33.794076",
+  "risk_score": 0.946,
+  "grooming_stage": "Exploitation Attempt",
+  "total_messages": 5,
+  "conversation": [
+    {
+      "sender": "navya",
+      "text": "hii",
+      "timestamp": "2026-03-06T22:03:52.956861",
+      "score": 0.0
+    },
+    {
+      "sender": "saanvi",
+      "text": "hie",
+      "timestamp": "2026-03-06T22:03:56.819223",
+      "score": 0.0
+    },
+    {
+      "sender": "saanvi",
+      "text": "how old are you",
+      "timestamp": "2026-03-06T22:04:16.469837",
+      "score": 0.38
+    },
+    {
+      "sender": "navya",
+      "text": "14",
+      "timestamp": "2026-03-06T22:04:23.402687",
+      "score": 0.0
+    },
+    {
+      "sender": "saanvi",
+      "text": "are you home alone",
+      "timestamp": "2026-03-06T22:04:33.793073",
+      "score": 0.632
+    }
+  ],
+  "fingerprints": {
+    "navya": {
+      "total_messages": 2,
+      "high_risk_messages": 0,
+      "avg_score": 0.0,
+      "patterns_used": [],
+      "hours_active": [
+        22,
+        22
+      ]
+    },
+    "saanvi": {
+      "total_messages": 3,
+      "high_risk_messages": 2,
+      "avg_score": 0.337,
+      "patterns_used": [],
+      "hours_active": [
+        22,
+        22,
+        22
+      ]
+    }
+  }
+}

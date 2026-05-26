@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-03-07T06:20:32.235694",
+  "risk_score": 1.0,
+  "stage": "Exploitation Attempt",
+  "grooming_stage": "Exploitation Attempt",
+  "predator_fingerprint": {
+    "message_count": 4,
+    "flag_counts": {
+      "Age probing": 1,
+      "Isolation check": 1,
+      "Image solicitation": 1
+    },
+    "avg_msg_len": 13.0,
+    "timestamps": [
+      "2026-03-07T06:19:37.059457",
+      "2026-03-07T06:19:54.585394",
+      "2026-03-07T06:20:10.060431",
+      "2026-03-07T06:20:32.232748"
+    ],
+    "total_score": 1.89
+  },
+  "conversation": [
+    {
+      "sender": "a",
+      "role": "predator",
+      "text": "hey",
+      "score": 0.0,
+      "flags": [],
+      "emotions": [],
+      "ts": "2026-03-07T06:19:37.059457"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "hello",
+      "score": 0.0,
+      "flags": [],
+      "emotions": [],
+      "ts": "2026-03-07T06:19:47.269541"
+    },
+    {
+      "sender": "a",
+      "role": "predator",
+      "text": "how old are you",
+      "score": 0.3,
+      "flags": [
+        "Age probing"
+      ],
+      "emotions": [],
+      "ts": "2026-03-07T06:19:54.585394"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "14",
+      "score": 0.0,
+      "flags": [],
+      "emotions": [],
+      "ts": "2026-03-07T06:19:59.513402"
+    },
+    {
+      "sender": "a",
+      "role": "predator",
+      "text": "are you home alone",
+      "score": 0.5,
+      "flags": [
+        "Isolation check"
+      ],
+      "emotions": [],
+      "ts": "2026-03-07T06:20:10.060431"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "yess",
+      "score": 0.0,
+      "flags": [],
+      "emotions": [],
+      "ts": "2026-03-07T06:20:19.420433"
+    },
+    {
+      "sender": "a",
+      "role": "predator",
+      "text": "send me pictures",
+      "score": 0.42,
+      "flags": [
+        "Image solicitation"
+      ],
+      "emotions": [],
+      "ts": "2026-03-07T06:20:32.232748"
+    }
+  ],
+  "reporting_channels": {
+    "CHILDLINE": "1098",
+    "cybercrime_portal": "cybercrime.gov.in",
+    "national_cyber": "1930"
+  }
+}

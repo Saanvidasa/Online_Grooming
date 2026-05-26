@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-03-07T08:24:28.714408",
+  "risk_score": 1.0,
+  "stage": "Exploitation Attempt",
+  "conversation": [
+    {
+      "sender": "predator",
+      "role": "predator",
+      "text": "hey hottie",
+      "score": 0.6,
+      "flags": [
+        "Sexual"
+      ],
+      "ts": "2026-03-07T08:23:08.350381"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "hey?",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T08:23:14.780349"
+    },
+    {
+      "sender": "predator",
+      "role": "predator",
+      "text": "how old are you",
+      "score": 0.3,
+      "flags": [
+        "Secrecy",
+        "Isolation"
+      ],
+      "ts": "2026-03-07T08:23:23.160982"
+    },
+    {
+      "sender": "navya",
+      "role": "child",
+      "text": "17",
+      "score": 0.0,
+      "flags": [],
+      "ts": "2026-03-07T08:24:18.826520"
+    },
+    {
+      "sender": "predator",
+      "role": "predator",
+      "text": "send me your picture",
+      "score": 0.7,
+      "flags": [
+        "Image Request",
+        "Sexual"
+      ],
+      "ts": "2026-03-07T08:24:28.713163"
+    }
+  ]
+}
